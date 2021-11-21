@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage[shortlabels]{enumitem}
+\usepackage{inputenc}
+
+
+\title{\textbf{Take-home-eksamen}}
+\author{Gruppe 4\\ Emma Petersen (Empet21) H7 \\ Julian Magnus Settergren Sørensen (Julso21) H7 \\ Laura Menko Hornholt (Lahor21) H7 }
+\date{21 November 2021}
+
+
+\begin{document}
+\maketitle
+\newpage
+\section{Eksamen januar 2009 Opgave 1}
+Lad A og B være mængder af heltal. Betragt følgende fem udsagn, hvor |
+betyder “går op i”, og$~\not | $  betyder “går ikke op i”.
+\begin{enumerate}[(1)]
+    \item $ ~ \forall x \in A: \exists y \in B: 3 | (x+y) $ 
+    \item $ ~ \exists y \in B: \forall x \in A: 3 | (x+y) $ 
+    \item $ ~ \forall x \in A: \exists y \in B: \exists z \in Z: x+y=3z $ 
+    \item $ ~ \exists x \in A: \forall y \in B: 3 \not | (x+y) $ 
+    \item $ ~ \forall x \in A: \exists y \in B: 3 \not | (x+y) $ \\
+\end{enumerate}
+    
+\begin{enumerate}[a)]
+    \item Hvilke af udsagnene (2)–(5) er 
+    \begin{enumerate}[-]
+        \item ækvivalente med udsagn (1)?
+        \item ækvivalente med negationen af udsagn (1)?
+        \item ingen af delene?
+        \begin{enumerate}[(1)]
+            \item Udsagn (1)
+            \item Ækvivalent med udsagn (1)
+            \item Ingen af delene
+            \item Ækvivalent med negationen af udsagn (1)
+            \item Ingen af delene \\
+        \end{enumerate}
+    \end{enumerate}
+    \item Lad $~A = B = \aleph_0$. Hvilke af de fem udsagn er da sande?
+        \begin{enumerate} [(1)]
+            \item Sand
+            \item Sand
+            \item Falsk
+            \item Sand
+            \item Sand
+        \end{enumerate}
+\end{enumerate}
+
+\end{document}
